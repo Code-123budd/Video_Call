@@ -3,7 +3,7 @@ import axios from 'axios';
 
 // Create an instance of Axios
 const apiClient = axios.create({
-  baseURL: "https://video-call-backend-ak0r.onrender.com",
+  baseURL: "https://video-call-og.onrender.com",
   withCredentials: true, // This ensures cookies are sent with requests
 });
 
