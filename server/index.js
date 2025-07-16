@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 3000;
 const server = createServer(app);
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://video-call-cips.vercel.app'
+  'https://video-call-gwcw.vercel.app/'
 ];
 
 // Middleware
