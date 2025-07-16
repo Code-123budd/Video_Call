@@ -15,9 +15,8 @@ const PORT = process.env.PORT || 3000;
 
 const server = createServer(app);
 const allowedOrigins = [
-  'https://video-call-froo.onrender.com',
   'http://localhost:5173',
-  'https://your-vercel-site.vercel.app'
+  'https://video-call-cips.vercel.app'
 ];
 
 // Middleware
