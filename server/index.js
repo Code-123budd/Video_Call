@@ -14,7 +14,11 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 const server = createServer(app);
-const allowedOrigins = [process.env.CLIENT_URL];
+const allowedOrigins = const allowedOrigins = [
+  'https://video-call-froo.onrender.com',
+  'http://localhost:5173',
+  'https://your-vercel-site.vercel.app'
+];
 
 // Middleware
 app.use(cors({
